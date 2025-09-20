@@ -67,4 +67,26 @@ source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
 # Install dependencies
+pip install -r requirements.txt# Clonar el repositorio
+git clone https://github.com/ja1rdev/deep-learning-devops-lmops.git
+
+# Entrar al proyecto
+cd deep-learning-devops-lmops
+
+# Crear entorno virtual
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
+
+# Instalar dependencias
 pip install -r requirements.txt
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+Project Lead - [@ja1rdev](https://github.com/ja1rdev)
+
+Email: [jairenriquez1715@gmail.com](mailto:jairenriquez1715@gmail.com)
