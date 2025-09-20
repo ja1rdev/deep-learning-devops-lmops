@@ -10,30 +10,30 @@
 
 ## 📋 Overview
 
-**Deep Learning DevOps & LMOps** es un repositorio orientado a la **automatización del ciclo de vida de modelos de machine learning y deep learning (MLOps)**.  
-Integra herramientas de **DevOps, DataOps y MLOps** para entrenar, versionar, desplegar y monitorear modelos en entornos escalables, confiables y reproducibles.  
+**Deep Learning DevOps & LMOps** is a repository focused on the **automation of the machine learning and deep learning model lifecycle (MLOps)**.  
+It integrates **DevOps, DataOps, and MLOps** tools for training, versioning, deploying, and monitoring models in scalable, reliable, and reproducible environments.  
 
 ---
 
 ## ✨ Features
 
-- 🚀 **Entrenamiento automático** y reproducible de modelos.
-- 🧩 **Pipelines CI/CD para modelos de ML**.
-- 📊 **Monitoreo de rendimiento** y reentrenamiento continuo.
-- ☁️ **Compatibilidad con nubes públicas y privadas** (AWS, GCP, Azure).
-- 🐳 **Contenerización con Docker y orquestación con Kubernetes**.
-- 🔐 **Manejo seguro de datos y credenciales**.
+- 🚀 **Automated and reproducible model training**.  
+- 🧩 **CI/CD pipelines for machine learning models**.  
+- 📊 **Performance monitoring** and continuous retraining.  
+- ☁️ **Support for public and private clouds** (AWS, GCP, Azure).  
+- 🐳 **Containerization with Docker and orchestration with Kubernetes**.  
+- 🔐 **Secure data and credentials management**.  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Lenguajes**: Python, Bash
-- **Frameworks DL**: PyTorch, TensorFlow
-- **MLOps Tools**: MLflow, DVC, Weights & Biases
-- **Infraestructura**: Docker, Kubernetes
-- **Storage**: PostgreSQL, MinIO, S3
-- **CI/CD**: GitHub Actions, Jenkins, ArgoCD
+- **Languages**: Python, Bash  
+- **DL Frameworks**: PyTorch, TensorFlow  
+- **MLOps Tools**: MLflow, DVC, Weights & Biases  
+- **Infrastructure**: Docker, Kubernetes  
+- **Storage**: PostgreSQL, MinIO, S3  
+- **CI/CD**: GitHub Actions, Jenkins, ArgoCD  
 
 ---
 
@@ -41,40 +41,30 @@ Integra herramientas de **DevOps, DataOps y MLOps** para entrenar, versionar, de
 
 ```bash
 deep-learning-devops-lmops/
-│── configs/              # Archivos de configuración YAML/JSON
-│── data/                 # Datasets (ignorado en git mediante .gitignore)
-│── notebooks/            # Jupyter notebooks de experimentación
-│── src/                  # Código fuente principal
-│   ├── train.py          # Script de entrenamiento
-│   ├── evaluate.py       # Evaluación y métricas
-│   └── inference.py      # Inferencia de modelos en producción
-│── docs/                 # Documentación
-│── tests/                # Pruebas unitarias e integración
-│── Dockerfile            # Imagen para contenedor
-│── requirements.txt      # Dependencias
+│── configs/              # YAML/JSON configuration files
+│── data/                 # Datasets (git-ignored via .gitignore)
+│── notebooks/            # Jupyter notebooks for experimentation
+│── src/                  # Main source code
+│   ├── train.py          # Training script
+│   ├── evaluate.py       # Evaluation and metrics
+│   └── inference.py      # Model inference in production
+│── docs/                 # Documentation
+│── tests/                # Unit and integration tests
+│── Dockerfile            # Docker image definition
+│── requirements.txt      # Dependencies
 │── LICENSE
 │── README.md
 
-# Clonar el repositorio
+# Clone the repository
 git clone https://github.com/ja1rdev/deep-learning-devops-lmops.git
 
-# Entrar al proyecto
+# Enter the project
 cd deep-learning-devops-lmops
 
-# Crear entorno virtual
+# Create a virtual environment
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
-# Instalar dependencias
+# Install dependencies
 pip install -r requirements.txt
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-Project Lead - [@ja1rdev](https://github.com/ja1rdev)
-
-Email: [jairenriquez1715@gmail.com](mailto:jairenriquez1715@gmail.com)
