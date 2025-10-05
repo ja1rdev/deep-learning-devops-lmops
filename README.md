@@ -39,7 +39,6 @@ It integrates **DevOps, DataOps, and MLOps** tools for training, versioning, dep
 
 ## 🗂️ Repository Structure
 
-```bash
 deep-learning-devops-lmops/
 │── configs/              # YAML/JSON configuration files
 │── data/                 # Datasets (git-ignored via .gitignore)
@@ -81,12 +80,14 @@ source .venv/bin/activate   # Linux/Mac
 # Instalar dependencias
 pip install -r requirements.txt
 
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions, corrections or want to add resources/projects, open an issue or make a pull request. All help to improve this repository is appreciated.
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open for contributions and learning purposes.
 
 ## 📞 Contact
 
-Project Lead - [@ja1rdev](https://github.com/ja1rdev)
-
-Email: [jairenriquez1715@gmail.com](mailto:jairenriquez1715@gmail.com)
+[jarienriquez1715@gmail.com](mailto:jarienriquez1715@gmail.com)
